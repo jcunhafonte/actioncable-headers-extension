@@ -1,0 +1,19 @@
+{
+  "name": "actioncable-headers-extension",
+  "version": "1.0.0",
+  "description": "Action Cable – Integrated WebSockets for Rails extended to support additional headers on Sec-WebSocket-Protocol",
+  "main": "actioncable-headers-extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcunhafonte/actioncable-headers-extension.git"
+  },
+  "author": "José Cunha Fonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcunhafonte/actioncable-headers-extension/issues"
+  },
+  "homepage": "https://github.com/jcunhafonte/actioncable-headers-extension#readme"
+}
