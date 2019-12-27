@@ -245,7 +245,8 @@
                             this.uninstallEventHandlers();
                         }
                         if (this.consumer.headers != null) {
-                            headers = headers.concat(this.consumer.headers);
+                            headers = typeof this.consumer.headers === "function" ?
+                                headers.concat(this.consumer.headers()) : headers.concat(this.consumer.headers);
                         }
 
                         this.webSocket = new ActionCable.WebSocket(this.consumer.url, headers);
